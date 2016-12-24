@@ -23,12 +23,17 @@ a {
   text-decoration:none;
 }
 a:hover {color:#0379C4}
-
-/* ==== Cook69 ==== */
-.related-post{margin:0 0 0 -2px;}
-.related-post-style-3 .related-post-item{height:123px;padding-left:2px!important;margin:0 0 2px!important;}
-.related-post-style-3 .related-post-item-thumbnail{height:67px;}
-.related-post-style-3 .related-post-item-tooltip a.related-post-item-title{font-size:12px;}
+/* ==== Related Post Widget Start ==== */
+.related-post {
+  margin:20px auto 0;
+  font-family: Roboto, sans-serif;
+  font-size:16px;
+}
+.related-post h4 {
+  font-size:20px;
+  margin:0 0 10px;
+  font-weight:500;
+}
 /* Style 3 */
 .related-post h4{margin:20px 10px 0!important;background:0 0;font-size:30px;font-weight:500;padding:0;color:#141924}
 .related-post{margin:0 0 0 -4px;padding:0;font-size:13px;text-align:left;box-sizing:border-box}
@@ -39,7 +44,6 @@ h4.title-related{font-size:24px;font-weight:500;margin:10px 0;text-align:left;z-
 .related-post-style-3 .related-post-item-thumbnail{display:block;margin:0 0 10px;width:100%;height:90px;max-width:none;max-height:none;background-color:transparent;padding:0;}
 .related-post-style-3 .related-post-item-tooltip{padding:0 7px;overflow:hidden;text-overflow:ellipsis;display:block;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
 .related-post-style-3 .related-post-item-tooltip a.related-post-item-title{font-size:13px;font-weight:700;color:#666666!important;}
-.related-post-style-3 .related-post-item-tooltip a.related-post-item-title:hover{text-decoration:underline}
 .related-post-style-3 .related-post-item-tooltip a.related-post-item-title:hover{text-decoration:underline}
 @media screen and (max-width:1024px){
 .related-post{margin:0 0 0 -2px;}
